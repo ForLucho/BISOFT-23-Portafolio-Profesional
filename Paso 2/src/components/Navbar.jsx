@@ -75,22 +75,22 @@ export const Navbar = () => {
             
             <ul className="navbar-nav mx-auto">
               <li className="nav-item mx-4">
-                <a className="nav-link" href="/#home" onClick={handleLinkClick}>Inicio</a>
+                <a className="nav-link" onClick={handleLinkClick}>Inicio</a>
               </li>
               <li className="nav-item mx-4">
-                <a className="nav-link" href="/#about" onClick={handleLinkClick}>Acerca</a>
+                <a className="nav-link" onClick={handleLinkClick}>Acerca</a>
               </li>
               <li className="nav-item mx-4">
-                <a className="nav-link" href="/#features" onClick={handleLinkClick}>Herramientas</a>
+                <a className="nav-link" onClick={handleLinkClick}>Herramientas</a>
               </li>
               <li className="nav-item mx-4">
-                <a className="nav-link" href="/#features" onClick={handleLinkClick}>Servicios</a>
+                <a className="nav-link" onClick={handleLinkClick}>Servicios</a>
               </li>
               <li className="nav-item mx-4">
-                <a className="nav-link" href="/#requests" onClick={handleLinkClick}>Proyectos</a>
+                <a className="nav-link" onClick={handleLinkClick}>Proyectos</a>
               </li>
               <li className="nav-item mx-4">
-                <a className="nav-link" href="/#footer" onClick={handleLinkClick}>Contacto</a>
+                <a className="nav-link" onClick={handleLinkClick}>Contacto</a>
               </li>
             </ul>
             <div className="language-controller">

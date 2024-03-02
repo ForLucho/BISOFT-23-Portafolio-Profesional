@@ -100,6 +100,8 @@ body {
 .nav-link {
     color: #ffffff; 
     font-weight: bolder; 
+    cursor: pointer;
+    user-select: none;
 }
 
 
