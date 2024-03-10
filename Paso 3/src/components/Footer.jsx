@@ -191,17 +191,17 @@ export const Footer = () => {
           <div className="col-md-12">
             <ul className='footer-social-media-col'>
               <li>
-                <a href="#">
+                <a href="https://github.com/ForLucho/">
                   <i className="fab fa-github icon"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/luis-monge-cort%C3%A9s-15574a211/">
                   <i className="fab fa-linkedin-in icon"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://wa.me/+50685577057">
                   <i className="fab fa-whatsapp icon"></i>
                 </a>
               </li>
