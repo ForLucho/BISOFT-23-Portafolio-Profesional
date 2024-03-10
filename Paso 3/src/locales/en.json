@@ -1,0 +1,94 @@
+{
+    "pageTitle": "Luis Monge | Software Developer",
+    "navbar": {
+      "home": "Home",
+      "about": "About",
+      "tools": "Tools",
+      "services": "Services",
+      "projects": "Projects",
+      "contact": "Contact",
+      "logoAlt": "Logo for EasyList."
+    },
+    "banner": {
+        "slider1": {
+          "title": "Luis Monge",
+          "text": "Software Developer",
+          "button": "About Me"
+        }
+    },
+    "about": {
+      "title": "About Me",
+      "altxt": "An orange polygonal fox curled up, sleeping.",
+      "professionalJourneyTitle": "Professional Journey",
+      "professionalJourneyContent1": "I am a passionate software developer with a diverse and enriching professional journey. My experience spans roles as a UX designer and frontend and backend developer, allowing me to gain a comprehensive understanding of the entire software development lifecycle.",
+      "professionalJourneyContent2": "Throughout my career, I have worked on a variety of challenging projects that have enabled me to develop strong skills in creating intuitive interfaces, implementing complex functionalities, and efficiently managing databases. My focus is on delivering high-quality solutions that meet the needs and expectations of users while fulfilling the technical and business requirements of the project.",
+      "professionalJourneyContent3": "My passion for technology and design drives me to stay updated on the latest trends and tools in the field of software development. I am constantly seeking opportunities to learn and grow, whether exploring new technologies or participating in challenging projects that allow me to expand my skills and knowledge."      
+    },
+    "features": {
+    "tools": "Tools",
+    "highlightedTechnologies": "Highlighted Technologies",
+    "design": "Experiential Design",
+    "frontend": "Frontend Construction",
+    "backend": "Backend Infrastructure",
+    "collaboration": "Collaborative Management",
+    "iconPrefix": "Icon of"
+    },
+    "footer": {
+      "contactTitle": "Get in Touch",
+      "callMe": "Call Me",
+      "emailMe": "Email Me",
+      "findMe": "Find Me",
+      "contactDetails": {
+        "phoneNumber": "(+506) 8557-8557",
+        "emailAddress": "luis.edmc2004@gmail.com",
+        "location": "San José, Costa Rica"
+      },
+      "hireServicesTitle": "Request Freelance Services",
+      "nameLabel": "Name",
+      "lastnameLabel": "Last Name",
+      "emailLabel": "Email",
+      "detailsLabel": "Project Details",
+      "namePlaceholder": "Enter your name",
+      "lastnamePlaceholder": "Enter your last name",
+      "emailPlaceholder": "Enter your email",
+      "detailsPlaceholder": "Tell me about your project",
+      "submitButton": "Submit",
+      "nameError": "Please enter your name.",
+      "lastnameError": "Please enter your last name.",
+      "emailError": "Please enter your email.",
+      "detailsError": "Please enter the details of your project.",
+      "successMessage": "Form submitted successfully.",
+      "poweredByReact": "Powered by React",
+      "copyRight": "Copyright © 2024, All rights reserved in Costa Rica"
+      },
+        "project": {
+          "title": "Projects",
+          "latestWorks": "Latest Works",
+          "details": "See More Details",
+          "tools": "Tools",
+          "description": "Description",
+          "viewDetails": "View Details"
+        },
+        "vortex": {
+          "title": "Game Development",
+          "description": "Vortex",
+          "paragraph1": "Vortex is a 2D platformer video game where the player must overcome obstacles and enemies to reach the end of each level. The game features a save system, scoring system, and achievement system. The game was developed in Unity and C# programming language.",
+          "paragraph2": "Captain, this guide covers all the essential information to start the mission, providing you with the necessary knowledge and requirements. The guide covers everything from the fundamental basics of the game, including basic movements and attacks, to character profiles, a detailed manual of enemies, description of collectibles, and specific information about various areas of the planet. Additionally, you will gain a deeper understanding of the story surrounding this secluded world, allowing you to tackle specific puzzles and challenging situations with clear context.",
+          "paragraph3": "The system is extremely pleased to welcome you, Captain. 'Vortex' offers a unique and thrilling gaming experience that amalgamates all the essential elements for an exciting adventure. Prepare for takeoff and immerse yourself in a cosmos of unparalleled fun and challenges!"
+        },
+        "moca": {
+          "title": "Web Development",
+          "description": "Moca Veterinary",
+          "paragraph1": "Moca Veterinary is a pet care service that includes veterinary care, hotel services, and more for your furry friends. In our facilities, your furry friends will receive top-quality medical care as well as enjoy amenities similar to those of a luxury hotel. Our highly qualified team is committed to providing loving and expert care to each pet, ensuring they feel pampered and attended to during their stay.",
+          "paragraph2": "From routine veterinary services to specialized treatments, at Moca, we ensure to cover all your pet's medical needs. Additionally, we offer a hotel service that goes beyond just providing a place to stay. Our facilities are designed with your pet's comfort and safety in mind, featuring spacious play areas, comfortable rooms, and a dedicated team of caregivers who ensure that each guest feels at home.",
+          "paragraph3": "At Moca, we understand that your pets are part of your family, so we strive to provide them with the best care possible. Whether they need a routine check-up, specialized medical attention, or just a place to stay while you're away, at Moca, they'll find everything they need to be happy and healthy. Trust us to take care of your furry friends as if they were our own companions."
+        },
+        "nion": {
+          "title": "UI/UX Design",
+          "description": "Nion",
+          "paragraph1": "Nion is an innovative mobile application designed to simplify your public transportation experience by providing quick and easy access to vital information about routes, schedules, and the current location of buses. With Nion, you'll never have to worry about missing the bus or being late to your destinations. Our app allows you to plan your trips in advance, providing you with accurate details about available routes, arrival and departure times, as well as real-time bus locations in your area.",
+          "paragraph2": "With an intuitive and user-friendly interface, Nion allows you to search and select bus routes that best suit your needs. Whether you're looking for the fastest route to your destination or just want to know when your next bus will arrive, our app provides you with all the information you need at your fingertips. Additionally, thanks to the real-time tracking feature, you can see the exact location of buses on the map and know when they're approaching your stop.",
+          "paragraph3": "Nion is designed to be your reliable travel companion, providing you with the information you need to move around the city with ease. Whether you're on your way to work, heading home, or exploring new places, our app helps you optimize your commutes and minimize wait times at bus stops. Download Nion today and discover how it can significantly improve your public transportation experience."
+        }
+  }
+  

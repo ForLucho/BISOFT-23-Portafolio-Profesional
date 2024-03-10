@@ -1,0 +1,135 @@
+#project{
+  margin-bottom: 3em;
+}
+
+#project .slick-track{
+  display: flex;
+}
+
+#project .slick-slide{
+  flex-grow: 1;
+  height: unset;
+}
+
+/* Fuerza a las tarjetas a tener la misma altura */
+
+.indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background-color: #000;
+}
+
+
+.text-danger {
+    display: inline-flex;
+    font-size: 40px;
+}
+
+.card-title img{
+    width: 100px;
+}
+
+.card-img-top{
+    height: 10em;
+}
+
+#project .col-md-4.mb-4 {
+    padding: 1em;
+}
+
+.slider-container {
+    position: relative;
+  }
+  
+  .prev-arrow-top, .next-arrow-top {
+    position: absolute;
+    top: 10px; /* Ajusta esta propiedad según tu diseño */
+    z-index: 999;
+  }
+  
+  .prev-arrow-top {
+    left: 10px; /* Ajusta esta propiedad según tu diseño */
+  }
+  
+  .next-arrow-top {
+    right: 10px; /* Ajusta esta propiedad según tu diseño */
+  }
+
+  #project .subtitle-ctrl, #project .arrow-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  #project .prev-arrow, #project .next-arrow{
+    background-color: #cf4721;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #f58920;
+    border-radius: 20%;
+    margin: 1em;
+    width: 2em;
+    height: 2em;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+  #project .indicator {
+    border-radius: unset;
+    width: 3em;
+    height: 1em;
+    background-color: #a3a3a3;
+    margin: 0 1em;
+    cursor: pointer;
+}
+
+#project .indicator.active{
+  background-color: #f58920;
+}
+
+#project .btn-primary {
+  background: none;
+  background-color: #F58920;
+  border-color: #F58920;
+  width: 50%;
+  padding: 0.5em;
+  border-radius: 0;
+}
+
+/* Set button colors */
+.raise {
+  --color: #ffffff;
+  --hover: #ff6b00; /* Adjusted hue */
+  color: var(--color);
+  transition: 0.25s;
+}
+
+.raise:hover,
+.raise:focus {
+  border-color: var(--hover);
+  color: #ffffff;
+  background-color: #F58920;
+  border-color: #ffffff;
+}
+
+/* Box shadow effect for RAISE button */
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+

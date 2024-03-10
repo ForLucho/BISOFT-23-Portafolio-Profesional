@@ -1,0 +1,275 @@
+/* Importación de la fuente Crimson Pro desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+
+/* Estilos específicos para el footer */
+.footer {
+  font-family: 'Inter', sans-serif; /* Fuente predeterminada con fallback a sans-serif */
+}
+
+.footer-bg-darkblue{
+  background-color: #1F1F1F;
+  padding-bottom: 25px;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.footer-container{
+  margin: auto;
+  padding-top: 2em;
+}
+
+.footer-left{
+  max-width: 370px;
+}
+
+.footer-img{
+  width: 125px;
+  margin-bottom: 1em;
+}
+
+.footer-title{
+  font-weight: bolder;
+  font-size: 28px;
+  line-height: 1em;
+}
+
+.footer-info{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  line-height: 35px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3em;
+}
+
+.footer-info i{
+  margin-right: 1em;
+  color: #ffffff;
+  font-size: -webkit-xxx-large;
+}
+
+.footer-info a{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-info a:hover{
+  color: #7EBAE8;
+  transition: ease-in-out 0.5s;
+}
+
+.footer-custom-md-6{
+  word-wrap: break-word;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2em;
+}
+
+.footer-column-title {
+  font-size: 16px;
+}
+
+#footer .footer-col-md-12{
+  border-top: solid 1px #ffffff;
+}
+
+#footer .footer-col-md-12 .col-12{
+  font-size: 12px;
+}
+
+.input-group-text, .form-control{
+  background-color: #363636;
+  border: 0;
+  border-radius: 0px;
+  color: #ffffff;
+  padding: 1em;
+}
+
+.form-control:focus{
+  background-color: #363636;
+  border: 0;
+  border-radius: 0px;
+  color: #ffffff;
+  border-color: #F58920 !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(155, 96, 19, 0.3) !important;
+}
+
+.input-group-text i{
+  color: #ffffff;
+  padding: 0em 0.5em 0em 0.5em;
+  font-size: 20px;
+}
+
+.form-control.textarea{
+  height: 110px;
+  resize: none !important;
+  scrollbar-color: #F58920 #363636; /* flecha y fondo del scrollbar respectivamente */
+  /* Establecer el grosor del scrollbar */
+  scrollbar-width: thin;
+}
+
+.footer .col-md-12{
+  border-top: solid 1px;
+  margin-top: 2em;
+}
+
+/* Cambiar el color del placeholder a blanco */
+.form-control::placeholder {
+  color: #ffffff; /* Color blanco */
+}
+
+/* Estilos para la opción preseleccionada en un input de tipo email */
+.form-control::selection {
+  background-color: #F58920; /* Fondo rojo */
+  color: #363636; /* Texto azul */
+}
+
+.form-control::-moz-selection {
+  background-color: #F58920; /* Fondo rojo */
+  color: #363636; /* Texto azul */
+}
+
+.footer .btn-primary{
+  background: none;
+  background-color: #F58920;
+  border-color: #F58920;
+  width: 50%;
+  padding: 0.5em;
+  border-radius: 0;
+}
+
+/* Set button colors */
+.raise {
+  --color: #ffffff;
+  --hover: #ff6b00; /* Adjusted hue */
+  color: var(--color);
+  transition: 0.25s;
+}
+
+.raise:hover,
+.raise:focus {
+  border-color: var(--hover);
+  color: #ffffff;
+  background-color: #F58920;
+  border-color: #ffffff;
+}
+
+/* Box shadow effect for RAISE button */
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.footer-social-media-col {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-top: 2em;
+}
+
+.footer-social-media-col li {
+  list-style: none;
+}
+
+.footer-social-media-col li a {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 45px;
+  font-size: 24px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #ffffff;
+  z-index: 1;
+}
+
+.footer-social-media-col li a .icon {
+  position: relative;
+  color: #262626;
+  transition: .5s;
+  z-index: 3;
+}
+
+.footer-social-media-col li a:hover .icon {
+  color: #ffffff;
+  transform: rotateY(360deg);
+}
+
+.footer-social-media-col li a:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: .5s;
+  z-index: 2;
+}
+
+.footer-social-media-col li a:hover:before {
+  top: 0;
+}
+
+.footer-social-media-col li:nth-child(1) a:before{
+  background: #6E38CF;
+}
+
+.footer-social-media-col li:nth-child(2) a:before{
+  background: #0A66C2;
+}
+
+.footer-social-media-col li:nth-child(3) a:before{
+  background: #31BA45;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12" height="12" fill="none" stroke="%23d43434"><circle cx="6" cy="6" r="4.5"/><path stroke-linejoin="round" d="M5.8 3.6h.4L6 6.5z"/><circle cx="6" cy="8.2" r=".6" fill="%23d43434" stroke="none"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+#footer .invalid-feedback{
+  color: #d43434;
+}
+
+@media (max-width: 991.9px) {
+  .footer-left {
+    max-width: unset;
+  }
+  #footer .footer-col-md-6 {
+    width: 100%;
+    padding-top: 1.5em;
+  }
+  .footer-container{
+    padding: 4% 4% 0% 4%;
+  }
+
+  .footer .btn-primary{
+    width: 100%;
+  }
+  .footer-custom-row{
+    flex-direction: column;
+  }
+  .footer-custom-row .col-md-6{
+    width: 100%;
+  }
+  .footer-info{
+    display: block;
+  }
+}
