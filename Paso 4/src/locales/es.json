@@ -1,0 +1,116 @@
+{
+    "pageTitle": "Luis Monge | Desarrollador de Software",
+    "navbar": {
+      "home": "Inicio",
+      "about": "Acerca",
+      "tools": "Herramientas",
+      "services": "Servicios",
+      "projects": "Proyectos",
+      "contact": "Contacto",
+      "logoAlt": "Logo para EasyList."
+    },
+    "banner": {
+        "slider1": {
+          "title": "Luis Monge",
+          "text": "Desarrollador de Software",
+          "button": "Ver mi Currículum",
+          "btnlink": "https://drive.google.com/file/d/19CbXbKADsizP32H3tGlwKPWkTb8DnMf6/view"
+        }
+    },
+      "about": {
+        "title": "Acerca de mí",
+        "altxt": "Un Zorro poligonal naranja enrollado, durmiendo.",
+        "professionalJourneyTitle": "Trayectoria Profesional",
+        "professionalJourneyContent1": "Soy un apasionado desarrollador de software con una trayectoria profesional diversa y enriquecedora. Mi experiencia abarca roles como UX designer y desarrollador frontend y backend, lo que me ha permitido obtener una comprensión integral de todo el ciclo de desarrollo de software.",
+        "professionalJourneyContent2": "Durante mi carrera, he trabajado en una variedad de proyectos desafiantes que me han permitido desarrollar habilidades sólidas en la creación de interfaces intuitivas, la implementación de funcionalidades complejas y la gestión eficiente de bases de datos. Mi enfoque se centra en la entrega de soluciones de alta calidad que satisfagan las necesidades y expectativas de los usuarios, al tiempo que cumplen con los requisitos técnicos y comerciales del proyecto.",
+        "professionalJourneyContent3": "Mi pasión por la tecnología y el diseño me impulsa a mantenerme actualizado sobre las últimas tendencias y herramientas en el campo del desarrollo de software. Estoy constantemente buscando oportunidades para aprender y crecer, ya sea explorando nuevas tecnologías o participando en proyectos desafiantes que me permitan ampliar mis habilidades y conocimientos."
+      },
+      "features": {
+        "tools": "Herramientas",
+        "highlightedTechnologies": "Tecnologías Destacadas",
+        "design": "Diseño Experiencial",
+        "frontend": "Construcción Frontend",
+        "backend": "Infraestructura Backend",
+        "collaboration": "Gestión Colaborativa",
+        "iconPrefix": "Icono de"
+      },
+      "footer": {
+        "contactTitle": "Ponte en contacto",
+        "callMe": "Llámame",
+        "emailMe": "Escríbeme",
+        "findMe": "Encuéntrame",
+        "contactDetails": {
+        "phoneNumber": "(+506) 8557-8557",
+        "emailAddress": "luis.edmc2004@gmail.com",
+        "location": "San José, Costa Rica"
+        },
+        "hireServicesTitle": "Solicitar Servicios Freelance",
+        "nameLabel": "Nombre",
+        "lastnameLabel": "Primer Apellido",
+        "emailLabel": "Correo Electrónico",
+        "detailsLabel": "Detalles del Proyecto",
+        "namePlaceholder": "Ingresa tu nombre",
+        "lastnamePlaceholder": "Ingresa tu apellido",
+        "emailPlaceholder": "Ingresa tu correo electrónico",
+        "detailsPlaceholder": "Cuéntame sobre tu proyecto",
+        "submitButton": "Enviar",
+        "nameError": "Por favor ingresa tu nombre.",
+        "lastnameError": "Por favor ingresa tu apellido.",
+        "emailError": "Por favor ingresa tu correo electrónico.",
+        "detailsError": "Por favor ingresa los detalles de tu proyecto.",
+        "successMessage": "Formulario enviado correctamente.",
+        "poweredByReact": "Desarrollado con React",
+        "copyRight": "Copyright © 2024, Utilizadas bajo licencias en Costa Rica"
+        },
+        "project": {
+          "title": "Proyectos",
+          "latestWorks": "Últimos Trabajos",
+          "details": "Ver Más Detalles",
+          "tools": "Herramientas",
+          "description": "Descripción",
+          "viewDetails": "Ver Detalles" 
+        },
+        "vortex": {
+          "title": "Desarrollo de Videojuegos",
+          "description": "Vortex",
+          "paragraph1": "Vortex es un videojuego de plataformas en 2D donde el jugador debe superar obstáStella y enemigos para llegar al final de cada nivel. El juego cuenta con un sistema de guardado de partidas, un sistema de puntuación y un sistema de logros. El juego fue desarrollado en Unity y programado en C#.",
+          "paragraph2": "Capitán, esta guía abarca toda la información esencial para iniciar la misión, proporcionándote los conocimientos y requisitos necesarios. La guía abarca desde las bases elementales del juego, que incluyen los movimientos fundamentales y ataques, hasta los perfiles de los personajes, un manual detallado de enemigos, descripción de coleccionables e información puntual sobre diversas zonas del planeta. Además, adquirirás una comprensión más profunda de la historia que envuelve a este apartado mundo, lo que te permitirá encarar acertijos específicos y situaciones desafiantes con un contexto claro.",
+          "paragraph3": "El sistema está sumamente complacido de recibirlo, Capitán. 'Vortex' ofrece una experiencia de juego única y trepidante que amalgama todos los elementos esenciales para una aventura emocionante. ¡Prepárese para el despegue y adéntrese en un cosmos de diversión y desafíos inigualables!"
+        },
+        "moca": {
+          "title": "Desarrollo de Páginas Web",
+          "description": "Veterinaria Moca",
+          "paragraph1": "Veterinaria Moca es un servicio de cuidado de mascotas que incluye atención veterinaria, servicios de hotel y más para tus amigos peludos. En nuestras instalaciones, tus amigos peludos recibirán atención médica de alta calidad y disfrutarán de comodidades similares a las de un hotel de lujo. Nuestro equipo altamente calificado está comprometido a brindar cuidado amoroso y experto a cada mascota, asegurando que se sientan mimados y atendidos durante su estadía.",
+          "paragraph2": "Desde servicios veterinarios de rutina hasta tratamientos especializados, en Moca nos aseguramos de cubrir todas las necesidades médicas de tus mascotas. Además, ofrecemos un servicio de hotel que va más allá de simplemente proporcionar un lugar para quedarse. Nuestras instalaciones están diseñadas pensando en el confort y la seguridad de las mascotas, con amplias áreas de recreación, habitaciones cómodas y un equipo dedicado de cuidadores que se encargan de garantizar que cada huésped se sienta como en casa.",
+          "paragraph3": "En Moca, entendemos que tus mascotas son parte de tu familia, por lo que nos esforzamos por brindarles el mejor cuidado posible. Ya sea que necesiten un chequeo de rutina, atención médica especializada o simplemente un lugar para quedarse mientras estás fuera, en Moca encontrarán todo lo que necesitan para estar felices y saludables. Confía en nosotros para cuidar de tus amigos peludos como si fueran nuestros propios compañeros."
+        },
+        "nion": {
+          "title": "Diseño de Interfaces",
+          "description": "Nion",
+          "paragraph1": "Nion es una aplicación móvil innovadora diseñada para simplificar tu experiencia de transporte público al proporcionar acceso rápido y fácil a información vital sobre rutas, horarios y la ubicación actual de los autobuses. Con Nion, nunca más tendrás que preocuparte por perder el autobús o llegar tarde a tus destinos. Nuestra aplicación te permite planificar tus viajes con anticipación, proporcionándote detalles precisos sobre las rutas disponibles, los horarios de llegada y salida, así como también la ubicación en tiempo real de los autobuses en tu área.",
+          "paragraph2": "Con una interfaz intuitiva y fácil de usar, Nion te permite buscar y seleccionar las rutas de autobús que mejor se adapten a tus necesidades. Ya sea que estés buscando la ruta más rápida para llegar a tu destino o simplemente quieras saber cuándo llegará tu próximo autobús, nuestra aplicación te ofrece toda la información que necesitas al alcance de tu mano. Además, gracias a la función de seguimiento en tiempo real, puedes ver la ubicación exacta de los autobuses en el mapa y saber cuándo se acercan a tu parada.",
+          "paragraph3": "Nion está diseñada para ser tu compañera de viaje confiable, brindándote la información que necesitas para moverte con facilidad por la ciudad. Ya sea que estés en camino al trabajo, de regreso a casa o explorando nuevos lugares, nuestra aplicación te ayuda a optimizar tus desplazamientos y a minimizar el tiempo de espera en las paradas de autobús. Descarga Nion hoy mismo y descubre cómo puede mejorar tu experiencia de transporte público de manera significativa."
+        },
+        "easylist":{
+          "title": "Aplicación Web",
+          "description": "EasyList",
+          "paragraph1": "La aplicación Easylist ha sido creada para simplificar el proceso de registro, oferta y entrega de productos a la red de escuelas del país. Con un enfoque intuitivo y basado en roles, ofrece una experiencia fluida para los usuarios, desde administradores hasta analistas y oferentes. La plataforma permite la publicación de licitaciones, especificando productos, cantidades y fechas límite de entrega, facilitando así la gestión transparente y eficiente de las necesidades de productos en el ámbito educativo.",
+          "paragraph2": "Uno de los aspectos destacados de Easylist es su sistema de notificaciones automáticas, que mantiene a los usuarios informados en cada etapa del proceso de licitación. Desde la adjudicación hasta la entrega, los oferentes reciben alertas con códigos QR para validar las ofertas, garantizando una transacción segura y sin problemas. Además, la membresía premium ofrece beneficios adicionales, como la publicación de inventarios de productos y la participación en licitaciones de adjudicación automática, optimizando así la experiencia de los usuarios y agilizando el flujo de trabajo en la plataforma.",
+          "paragraph3": "Con un módulo de configuraciones accesible para el administrador, Easylist permite una gestión eficiente de productos y usuarios, adaptándose a las necesidades cambiantes del sistema. Con su enfoque centrado en la simplicidad y la eficiencia, Easylist se presenta como una herramienta indispensable para la gestión transparente y efectiva de las necesidades de productos en el entorno educativo, ofreciendo una solución integral y fácil de usar para todas las partes involucradas."
+        },
+        "synergia":{
+          "title": "Diseño de Interfaces",
+          "description": "Synergia",
+          "paragraph1": "Synergia se erige como una plataforma digital de vanguardia, dedicada a proporcionar respuestas confiables a preguntas sobre cualquier tema imaginable. Respaldada por una comunidad de usuarios profesionales, expertos en una amplia gama de disciplinas, Synergia garantiza información precisa y de calidad. A través de un formato de foro dinámico, la plataforma fomenta debates informados y participativos, promoviendo así el intercambio de conocimientos entre sus usuarios.",
+          "paragraph2": "La versatilidad de Synergia es innegable. Además de su sólido foro de discusión, la plataforma ofrece una extensa biblioteca de videos cortos impartidos por expertos. Estos videos proporcionan respuestas claras y concisas a preguntas específicas, enriqueciendo la experiencia de aprendizaje con contenido visual. Pero eso no es todo: Synergia también brinda acceso a una amplia variedad de cursos sobre diversos temas, completos con certificaciones reconocidas, permitiendo a los usuarios profundizar en sus intereses y avanzar en sus habilidades.",
+          "paragraph3": "Más allá de ser una fuente de respuestas, Synergia es una comunidad en constante crecimiento y colaboración. Aquí, el aprendizaje se convierte en una experiencia colectiva, donde los usuarios comparten sus conocimientos y celebran el éxito de sus compañeros. Con su enfoque innovador y su compromiso con la excelencia educativa, Synergia se posiciona como el destino preferido para aquellos que buscan respuestas confiables, recursos educativos de primera calidad y una comunidad sólida en la que confiar y crecer juntos."
+        },
+        "stella":{
+          "title": "Desarrollo de Aplicaciones",
+          "description": "Stella",
+          "paragraph1": "Stella emerge como una plataforma líder en educación sobre ciberseguridad, ofreciendo a los usuarios acceso a una amplia gama de cursos dinámicos creados por la propia plataforma. Con un enfoque centrado en la práctica y la aplicación real, Stella garantiza que los usuarios adquieran habilidades prácticas y conocimientos sólidos en materia de ciberseguridad. Desde fundamentos básicos hasta temas avanzados, la plataforma cubre todos los aspectos importantes de este campo vital en el mundo digital actual.",
+          "paragraph2": "La versatilidad de Stella va más allá de la mera impartición de cursos. Además, la plataforma proporciona un espacio interactivo de discusión en forma de foro, donde los usuarios pueden intercambiar ideas, resolver dudas y debatir sobre diversos temas relacionados con la ciberseguridad. Esta comunidad activa y colaborativa ofrece a los usuarios la oportunidad de aprender de sus pares, compartir experiencias y mantenerse al día con las últimas tendencias y desarrollos en el campo de la seguridad cibernética.",
+          "paragraph3": "Con su enfoque innovador y su compromiso con la excelencia educativa, Stella se posiciona como el destino preferido para aquellos que buscan adentrarse en el fascinante mundo de la ciberseguridad. Ya sea que seas un principiante curioso o un experto en busca de actualizaciones, Stella ofrece una experiencia de aprendizaje enriquecedora y completa. Únete a la comunidad de Stella hoy mismo y hazte parte de una red global de profesionales dedicados a proteger el mundo digital de hoy y del mañana."
+        }
+  }
+  

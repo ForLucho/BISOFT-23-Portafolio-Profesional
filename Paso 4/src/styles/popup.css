@@ -1,0 +1,146 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1040;
+}
+
+.modal-backdrop.fade.show {
+  opacity: 1.5; /* Ajusta la opacidad según tus preferencias */
+  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semi-transparente */
+}
+
+.modal.fade.show {
+  opacity: 1;
+  display: block;
+}
+
+.modal.fade.show .modal-dialog {
+  transition: transform .3s ease-out;
+  transform: translate(0, 0);
+}
+
+.modal.fade.show .modal-content {
+  opacity: 1;
+}
+
+body.modal-open {
+  overflow: hidden !important;
+}
+
+#project-detail .modal-split {
+  width: 100%;
+}
+
+#project-detail .text-paragraph{
+  text-align: justify;
+}
+
+#project-detail .modal-right {
+  width: 50%;
+}
+
+#project-detail .modal-left {
+  width: 45%;
+  margin-right: 5%;
+}
+
+#project-detail .modal-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 2em 0em 2em;
+}
+
+#project-detail .modal-body {
+  padding: 0em 2em 2em 2em;
+}
+
+#project-detail .modal-dialog {
+  max-width: unset;
+}
+
+#project-detail .main-img{
+  width: 100%;
+}
+
+#project-detail .card-img-top{
+  height: auto;
+}
+
+.project-images {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.project-images .main-image img {
+  width: 100%;
+  height: auto;
+}
+
+.project-images .slick-slider {
+  max-width: 100%;
+}
+
+.project-images .slick-slide img {
+  width: 100%;
+  height: auto;
+}
+
+#project-detail .slick-slide > div {
+  padding: 1em;
+}
+
+#project-detail .slick-dots{
+  position: unset
+}
+
+
+/* Media queries */
+
+@media (max-width: 991.9px) {
+  #project-detail .modal-dialog {
+    width: 90%;
+    margin: 1em auto 1em auto;
+  }
+  #project-detail .modal-body {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #project-detail .main-image {
+    display: ruby-text;
+    width: inherit;
+}
+  #project-detail .modal-left, #project-detail .modal-right {
+    width: 100%;
+  }
+  #project-detail .additional-images{
+    display: ruby;
+  }
+  #project-detail .additional-images img{
+    width: 20%;
+    margin: 0em 2em 0em 2em;
+  }
+}
+
+@media (min-width: 992px) {
+  #project-detail .modal-dialog {
+    width: 75%;
+  }
+  #project-detail .main-image {
+    display: flex;
+    justify-content: center;
+  }
+  #project-detail .additional-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #project-detail .additional-images img{
+    width: 20%;
+    margin: 0em 2em 0em 2em;
+  }
+}
+
