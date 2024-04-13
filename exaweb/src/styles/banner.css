@@ -1,0 +1,249 @@
+.slider-area.pos-relative{
+  background: linear-gradient(-45deg, #ef8f1e, #e14931, #d2303f, #b72161);
+	background-size: 200% 200%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+  position: relative;
+}
+
+/* Estilos para el div de oscurecimiento */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0 0 0 / 15%); /* Cambia el valor alpha para ajustar la opacidad */
+  z-index: 1; /* Ajusta según sea necesario */
+}
+
+.slider-height{
+  background-size: contain;
+  height: 100vh;
+  z-index: 2;
+}
+
+.theme-btn {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  z-index: 1;
+  padding: 0;
+  border: 0;
+  transition: .3s;
+  cursor: pointer;
+}
+
+#home .btn-primary {
+  background: none;
+  background-color: #F58920;
+  border-color: #F58920;
+  width: 50%;
+  padding: 0.5em;
+  border-radius: 0;
+}
+
+/* Set button colors */
+.raise {
+  --color: #ffffff;
+  --hover: #ff6b00; /* Adjusted hue */
+  color: var(--color);
+  transition: 0.25s;
+}
+
+.raise:hover,
+.raise:focus {
+  border-color: var(--hover);
+  color: #ffffff;
+  background-color: #F58920;
+  border-color: #ffffff;
+}
+
+/* Box shadow effect for RAISE button */
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+/* slider */
+.single-slider {
+  background-size: cover;
+  background-position: center center;
+}
+
+.slider-height {
+  min-height: 800px;
+}
+
+.slider-content h1 {
+  font-size: 60px;
+}
+
+.slider-content h1 span {
+  font-size: 60px;
+}
+
+.slider-content p {
+  font-size: 16px;
+  color: #fff;
+  line-height: 28px;
+  margin-top: 18px;
+  margin-bottom: 38px;
+}
+
+.slider-content-2 h1 {
+  font-size: 72px;
+  line-height: 85px;
+}
+
+.slider-active .slick-arrow:hover {
+  color: #F58920;
+}
+
+.slider-active .slick-dots {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.slider-active .slick-dots li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.slider-active .slick-dots li:last-child {
+  margin-right: 0;
+}
+
+.slider-active .slick-dots li button {
+  background: #fff;
+  border: 0;
+  text-indent: -99999999999px;
+  padding: 0;
+  width: 20px;
+  height: 5px;
+  border-radius: 3px;
+}
+
+.slider-active .slick-dots li.slick-active button {
+  width: 40px;
+}
+
+.slider-active-2 .slick-dots li.slick-active button {
+  border: 1px solid #F58920;
+}
+
+.slider-active .slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: 0;
+  border: 0;
+  text-transform: uppercase;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
+}
+
+.slider-area:hover .slider-active .slick-arrow {
+  opacity: 1;
+  visibility: visible;
+}
+
+.slider-active .slick-arrow:hover::before {
+  width: 30px;
+}
+
+.slider-active .slick-next {
+  right: 40px;
+}
+
+.slider-active .slick-prev {
+  z-index: 1;
+  left: 40px;
+}
+
+.slider-active .slick-next::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  background: #fff;
+  right: -40px;
+  top: 13px;
+  transition: .3s;
+}
+
+.slider-active .slick-next::before:hover {
+  color: red;
+}
+
+.slider-active .slick-prev::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  background: #fff;
+  left: -40px;
+  top: 13px;
+  transition: .3s;
+}
+
+.slider-active-2 .slick-prev::before {
+  display: none;
+}
+
+.slider-active-2 .slick-next::before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #fff;
+  right: 0;
+  top: 22px;
+  left: -4px;
+}
+
+.slider-content h1{
+  color:#fff;
+}
+
+@media (max-width: 767px){
+  .slider-height {
+    min-height: 450px;
+  }
+
+  .slider-content h1 span {
+    font-size: 35px;
+  }
+
+  .slider-content h1 {
+    font-size: 30px;
+    line-height: 43px;
+  }
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.logo {
+  width: 300px;
+  margin-bottom: 20px;
+  z-index: 2;
+}

@@ -1,0 +1,118 @@
+{
+    "pageTitle": "Luis Monge | Software Developer",
+    "navbar": {
+      "home": "Home",
+      "about": "About",
+      "tools": "Tools",
+      "services": "Services",
+      "projects": "Projects",
+      "contact": "Contact",
+      "logoAlt": "Logo for EasyList."
+    },
+    "banner": {
+        "slider1": {
+          "title": "Luis Monge",
+          "text": "Software Developer",
+          "button": "View my Resume",
+          "btnlink": "https://drive.google.com/file/d/1_FpOFEqxvzA-ACw_Q1R1vtNe9D5ne-H8/view"
+        }
+    },
+    "about": {
+      "title": "About Me",
+      "subtitle": "I am a passionate software developer with a diverse and enriching professional journey. My experience spans roles as a UX designer and frontend and backend developer, allowing me to gain a comprehensive understanding of the entire software development lifecycle.",
+      "altxt": "An orange polygonal fox curled up, sleeping.",
+      "professionalJourneyTitle": "Professional Journey",
+      "professionalJourneyContent1": "Throughout my career, I have worked on a variety of challenging projects that have enabled me to develop strong skills in creating intuitive interfaces, implementing complex functionalities, and efficiently managing databases. My focus is on delivering high-quality solutions that meet the needs and expectations of users while fulfilling the technical and business requirements of the project.",
+      "professionalJourneyContent2": "My passion for technology and design drives me to stay updated on the latest trends and tools in the field of software development. I am constantly seeking opportunities to learn and grow, whether exploring new technologies or participating in challenging projects that allow me to expand my skills and knowledge."      
+    },
+    "features": {
+    "tools": "Tools",
+    "highlightedTechnologies": "Highlighted Technologies",
+    "design": "Experiential Design",
+    "frontend": "Frontend Construction",
+    "backend": "Backend Infrastructure",
+    "collaboration": "Collaborative Management",
+    "iconPrefix": "Icon of"
+    },
+    "footer": {
+      "title": "Ready for a New Project?",
+      "subtitle": "Feel free to contact me to discuss your ideas and needs! I offer freelance software development and UX/UI design services, ensuring high-quality solutions and exceptional results. Looking forward to working together on your next project!",    
+      "contactTitle": "Get in Touch",
+      "callMe": "Call Me",
+      "emailMe": "Email Me",
+      "findMe": "Find Me",
+      "contactDetails": {
+        "phoneNumber": "(+506) 8557-8557",
+        "emailAddress": "luis.edmc2004@gmail.com",
+        "location": "San José, Costa Rica"
+      },
+      "hireServicesTitle": "Request Freelance Services",
+      "nameLabel": "Name",
+      "lastnameLabel": "Last Name",
+      "emailLabel": "Email",
+      "detailsLabel": "Project Details",
+      "namePlaceholder": "Enter your name",
+      "lastnamePlaceholder": "Enter your last name",
+      "emailPlaceholder": "Enter your email",
+      "detailsPlaceholder": "Tell me about your project",
+      "submitButton": "Submit",
+      "nameError": "Please enter your name.",
+      "lastnameError": "Please enter your last name.",
+      "emailError": "Please enter your email.",
+      "detailsError": "Please enter the details of your project.",
+      "successMessage": "Form submitted successfully.",
+      "poweredByReact": "Powered by React",
+      "copyRight": "Copyright © 2024, All rights reserved in Costa Rica"
+      },
+        "project": {
+          "title": "Projects",
+          "subtitle": "Throughout my career, I've had the privilege of working on a variety of exciting and challenging projects. Each project has been an opportunity to apply my creativity and technical skills to problem-solving and the creation of innovative solutions. I'm proud to have contributed to the success of these projects and look forward to continuing to participate in new technological adventures in the future.",
+          "details": "See More Details",
+          "tools": "Tools",
+          "description": "Description",
+          "viewDetails": "View Details"
+        },
+        "vortex": {
+          "title": "Game Development",
+          "description": "Vortex",
+          "paragraph1": "Vortex is a 2D platformer video game where the player must overcome obstacles and enemies to reach the end of each level. The game features a save system, scoring system, and achievement system. The game was developed in Unity and C# programming language.",
+          "paragraph2": "Captain, this guide covers all the essential information to start the mission, providing you with the necessary knowledge and requirements. The guide covers everything from the fundamental basics of the game, including basic movements and attacks, to character profiles, a detailed manual of enemies, description of collectibles, and specific information about various areas of the planet. Additionally, you will gain a deeper understanding of the story surrounding this secluded world, allowing you to tackle specific puzzles and challenging situations with clear context.",
+          "paragraph3": "The system is extremely pleased to welcome you, Captain. 'Vortex' offers a unique and thrilling gaming experience that amalgamates all the essential elements for an exciting adventure. Prepare for takeoff and immerse yourself in a cosmos of unparalleled fun and challenges!"
+        },
+        "moca": {
+          "title": "Web Development",
+          "description": "Moca Veterinary",
+          "paragraph1": "Moca Veterinary is a pet care service that includes veterinary care, hotel services, and more for your furry friends. In our facilities, your furry friends will receive top-quality medical care as well as enjoy amenities similar to those of a luxury hotel. Our highly qualified team is committed to providing loving and expert care to each pet, ensuring they feel pampered and attended to during their stay.",
+          "paragraph2": "From routine veterinary services to specialized treatments, at Moca, we ensure to cover all your pet's medical needs. Additionally, we offer a hotel service that goes beyond just providing a place to stay. Our facilities are designed with your pet's comfort and safety in mind, featuring spacious play areas, comfortable rooms, and a dedicated team of caregivers who ensure that each guest feels at home.",
+          "paragraph3": "At Moca, we understand that your pets are part of your family, so we strive to provide them with the best care possible. Whether they need a routine check-up, specialized medical attention, or just a place to stay while you're away, at Moca, they'll find everything they need to be happy and healthy. Trust us to take care of your furry friends as if they were our own companions."
+        },
+        "nion": {
+          "title": "UI/UX Design",
+          "description": "Nion",
+          "paragraph1": "Nion is an innovative mobile application designed to simplify your public transportation experience by providing quick and easy access to vital information about routes, schedules, and the current location of buses. With Nion, you'll never have to worry about missing the bus or being late to your destinations. Our app allows you to plan your trips in advance, providing you with accurate details about available routes, arrival and departure times, as well as real-time bus locations in your area.",
+          "paragraph2": "With an intuitive and user-friendly interface, Nion allows you to search and select bus routes that best suit your needs. Whether you're looking for the fastest route to your destination or just want to know when your next bus will arrive, our app provides you with all the information you need at your fingertips. Additionally, thanks to the real-time tracking feature, you can see the exact location of buses on the map and know when they're approaching your stop.",
+          "paragraph3": "Nion is designed to be your reliable travel companion, providing you with the information you need to move around the city with ease. Whether you're on your way to work, heading home, or exploring new places, our app helps you optimize your commutes and minimize wait times at bus stops. Download Nion today and discover how it can significantly improve your public transportation experience."
+        },
+        "easylist":{
+          "title": "Web Application",
+          "description": "EasyList",
+          "paragraph1": "The Easylist application has been designed to streamline the process of registration, bidding, and delivery of products to the country's network of schools. With an intuitive, role-based approach, it provides a seamless experience for users, ranging from administrators to analysts and suppliers. The platform allows for the publication of tenders, specifying products, quantities, and delivery deadlines, thus facilitating transparent and efficient management of product needs in the educational sector.",
+          "paragraph2": "One of Easylist's standout features is its system of automatic notifications, keeping users informed at every stage of the bidding process. From allocation to delivery, suppliers receive alerts with QR codes to validate offers, ensuring a secure and seamless transaction. Additionally, the premium membership offers additional benefits, such as product inventory publication and participation in automatic bid adjudication, thereby optimizing the user experience and streamlining workflow on the platform.",
+          "paragraph3": "With an accessible configuration module for administrators, Easylist enables efficient management of products and users, adapting to the changing needs of the system. With its focus on simplicity and efficiency, Easylist emerges as an indispensable tool for transparent and effective management of product needs in the educational environment, offering a comprehensive and user-friendly solution for all involved parties."
+        },
+        "synergia":{
+          "title": "UI/UX Design",
+          "description": "Synergia",
+          "paragraph1": "Synergia stands as a cutting-edge digital platform dedicated to providing reliable answers to questions on any imaginable topic. Backed by a community of professional users, experts in a wide range of disciplines, Synergia ensures precise and high-quality information. Through a dynamic forum format, the platform fosters informed and participatory debates, thus promoting the exchange of knowledge among its users.",
+          "paragraph2": "The versatility of Synergia is undeniable. In addition to its robust discussion forum, the platform offers an extensive library of short videos taught by experts. These videos provide clear and concise answers to specific questions, enriching the learning experience with visual content. But that's not all: Synergia also provides access to a wide variety of courses on diverse topics, complete with recognized certifications, allowing users to delve into their interests and advance their skills.",
+          "paragraph3": "Beyond being a source of answers, Synergia is a community in constant growth and collaboration. Here, learning becomes a collective experience, where users share their knowledge and celebrate the success of their peers. With its innovative approach and commitment to educational excellence, Synergia positions itself as the preferred destination for those seeking reliable answers, top-quality educational resources, and a solid community to trust and grow together."
+        },
+        "stella":{
+          "title": "Application Development",
+          "description": "Stella",
+          "paragraph1": "Stella emerges as a leading platform in cybersecurity education, providing users with access to a wide range of dynamic courses created by the platform itself. With a focus on practical application, Stella ensures that users acquire practical skills and solid knowledge in cybersecurity. From basic fundamentals to advanced topics, the platform covers all important aspects of this vital field in today's digital world.",
+          "paragraph2": "The versatility of Stella goes beyond merely offering courses. Additionally, the platform provides an interactive discussion space in the form of a forum, where users can exchange ideas, resolve doubts, and debate various topics related to cybersecurity. This active and collaborative community offers users the opportunity to learn from their peers, share experiences, and stay up-to-date with the latest trends and developments in the field of cybersecurity.",
+          "paragraph3": "With its innovative approach and commitment to educational excellence, Stella positions itself as the preferred destination for those looking to delve into the fascinating world of cybersecurity. Whether you're a curious beginner or an expert in search of updates, Stella offers a rich and comprehensive learning experience. Join the Stella community today and become part of a global network of professionals dedicated to protecting today's and tomorrow's digital world."
+        }
+  }
+  

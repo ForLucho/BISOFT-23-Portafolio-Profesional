@@ -1,0 +1,27 @@
+.scrollup-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #F58920;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.4s, transform 0.4s; /* Agregamos una transición de transformación */
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agregamos una sombra */
+}
+
+.scrollup-btn.show {
+  opacity: 1;
+  transform: translateY(0); /* Desplazamos el botón hacia arriba al aparecer */
+}
+
+.scrollup-btn:hover {
+  background-color: #f3a353;
+}
